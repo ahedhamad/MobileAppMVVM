@@ -78,7 +78,7 @@ namespace AssignmentMobile33.ModelView1
             }
 
         }
-        public void DuplicateID(int id) //بدي اغير من staff الى user ضروووورييييي؟؟؟؟؟؟؟؟؟؟؟؟؟؟ظ
+        public void DuplicateID(int id) 
         {
             if (staffs.Exists(x => x.Id == id))
             {
