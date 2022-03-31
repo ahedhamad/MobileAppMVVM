@@ -68,9 +68,9 @@ namespace AssignmentMobile33.ModelView1
             }
 
         }
-        public override void UpdateList()
+        public override void UpdateList(int id )
         {
-            var result = from User in Users where User.Id == 3 select User;
+            var result = from User in Users where User.Id == id select User;
 
             result.First().Name = "Aya";
             if (OnUpdate != null)
