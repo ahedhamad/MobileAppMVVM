@@ -70,7 +70,7 @@ namespace AssignmentMobile33.ModelView1
         }
         public override void UpdateList()
         {
-            var result = from User in Users where User.Id == 27 select User;
+            var result = from User in Users where User.Id == 3 select User;
 
             result.First().Name = "Aya";
             if (OnUpdate != null)
